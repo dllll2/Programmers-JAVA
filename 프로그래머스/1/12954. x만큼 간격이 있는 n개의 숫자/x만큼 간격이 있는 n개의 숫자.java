@@ -6,7 +6,7 @@ class Solution {
         // 첫째항 = x, 공차 = x
         // 일반항 = n*x
         for (int i = 1; i <= n; i++) {
-            answer[i - 1] = (long) i * x; // 등차수열 계산 및 저장
+            answer[i - 1] = (long) i * x;
         }             
         return answer;
     }
