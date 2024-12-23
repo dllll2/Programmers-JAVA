@@ -7,6 +7,7 @@ class Solution {
         char[] charArray = str.toCharArray();
         int[] intArray = new int[charArray.length];
         int sum = 0;
+        
         for (int i = 0; i < intArray.length; i++){
             intArray[i] = Character.getNumericValue(charArray[i]);
         }
