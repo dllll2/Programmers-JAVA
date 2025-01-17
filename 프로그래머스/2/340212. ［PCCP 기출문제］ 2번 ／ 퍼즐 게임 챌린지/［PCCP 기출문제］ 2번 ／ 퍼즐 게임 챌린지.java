@@ -26,7 +26,7 @@ class Solution {
                 first = mid + 1; 
             } else {
                 answer = Math.min(answer, mid);
-                last = mid - 1;
+                last = mid -1 ;
             }
         }
         return answer;
